@@ -34,13 +34,13 @@ export class StandingsBuilder implements Standings {
 
         const goalDiff = fixture.homeGoals - fixture.awayGoals;
         if (goalDiff === 0) {
-            performance.addWin();
+            performance.addTie();
         }
         else if (
             goalDiff > 0 && team.name === fixture.homeTeam.name ||
             goalDiff < 0 && team.name === fixture.awayTeam.name
         ) {
-            performance.addTie();
+            performance.addWin();
         }
         else {
             performance.addLoss();

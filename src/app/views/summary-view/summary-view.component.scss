@@ -1,0 +1,10 @@
+.summary-container {
+    display: flex;
+    padding: 1rem;
+
+    .summary-card {
+        width: 20rem;
+        background-color: rgb(223, 223, 223);
+        margin: 1rem;
+    }
+}

@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SummaryViewComponent } from './views/summary-view/summary-view.component';
 import { appReducer } from './app.reducer';
+import { StandingsComponent } from './views/summary-view/standings/standings.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SummaryViewComponent
+    SummaryViewComponent,
+    StandingsComponent
   ],
   imports: [
     BrowserModule,

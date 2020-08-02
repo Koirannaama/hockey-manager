@@ -1,0 +1,18 @@
+<table *ngIf="performances?.length > 0; else noStandings">
+    <tr>
+        <th>Joukkue</th>
+        <th>V</th>
+        <th>T</th>
+        <th>H</th>
+        <th>Pisteet</th>
+    </tr>
+    <tr *ngFor="let perf of performances">
+        <td>{{ perf.teamName }}</td>
+        <th>{{ perf.wins }}</th>
+        <th>{{ perf.ties }}</th>
+        <th>{{ perf.losses }}</th>
+        <td>{{ perf.points }}</td>
+    </tr>
+</table>
+
+<ng-template #noStandings>Ei pelattuja pelejä</ng-template>
