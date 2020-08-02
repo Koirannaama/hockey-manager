@@ -1,0 +1,12 @@
+<p>Joukkueeni: {{ teamName$ | async }}</p>
+<ul>
+    <li *ngFor="let fixture of fixtures$ | async">
+        <span>{{ fixture.homeTeam.name }} - {{ fixture.awayTeam.name }}</span>
+        <span *ngIf="fixture.homeGoals != null && fixture.awayGoals != null">{{ fixture.homeGoals }} - {{ fixture.awayGoals }}</span>
+    </li>
+</ul>
+<ul>
+    <li *ngFor="let perf of performances$ | async">
+        {{ perf.teamName }}: {{ perf.points }}
+    </li>
+</ul>
