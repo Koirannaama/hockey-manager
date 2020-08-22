@@ -5,6 +5,39 @@
     .nav-bar {
         flex: 0 0 6rem;
         background-color: rgb(45, 185, 68);
+
+        a {
+            height: 3.5rem;
+            font-size: 0.75rem;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid transparent;
+            margin: 0 0.5rem;
+            
+            &:visited {
+                color: black;
+            }
+
+            &:hover {
+                background-color: rgba(45, 185, 68, 0.5);
+                border-bottom-color: black;
+            }
+        }
+
+        button {
+            margin-top: 1.5rem;
+            background-color: rgb(52, 155, 69);
+            border: none;
+            padding: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+
+            &:hover {
+                background-color: rgba(52, 155, 69, 0.5)
+            }
+        }
     }
 
     .content {
