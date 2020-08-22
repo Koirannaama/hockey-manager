@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { SummaryViewComponent } from './views/summary-view/summary-view.component';
 import { appReducer } from './app.reducer';
 import { StandingsComponent } from './views/summary-view/standings/standings.component';
+import { FixturesViewComponent } from './views/fixtures-view/fixtures-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SummaryViewComponent,
-    StandingsComponent
+    StandingsComponent,
+    FixturesViewComponent
   ],
   imports: [
     BrowserModule,

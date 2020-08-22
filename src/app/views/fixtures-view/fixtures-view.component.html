@@ -1,0 +1,7 @@
+<div *ngFor="let matchDay of dates$ | async">
+    <ul>
+        <li *ngFor="let fixture of matchDay">
+            {{ fixture.homeTeam.name }} - {{ fixture.awayTeam.name }}
+        </li>
+    </ul>
+</div>
