@@ -1,0 +1,26 @@
+table.standings {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+
+    tr:nth-child(even) {
+        background-color: rgb(214, 222, 255);
+    }
+
+    .name-col {
+        text-align: left;
+    }
+    .number-col {
+        width: 1.5rem;
+    }
+    th {
+        font-size: 0.875rem;
+    }
+
+    td {
+        padding: 0.25rem 0;
+        &.number-col {
+            text-align: center;
+        }
+    }
+}

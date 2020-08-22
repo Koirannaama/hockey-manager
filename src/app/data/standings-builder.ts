@@ -20,31 +20,33 @@ export class StandingsBuilder implements Standings {
         const performances = new Map<string, ComparableTeamPerformance>();
         schedule.matchDates.forEach(date => {
             date.forEach(fixture => {
-                if (fixture.homeGoals != null && fixture.awayGoals != null) {
-                    this.updatePerformanceFor(fixture.homeTeam, fixture, performances);
-                    this.updatePerformanceFor(fixture.awayTeam, fixture, performances);
-                }
+                this.updatePerformanceFor(fixture.homeTeam, fixture, performances);
+                this.updatePerformanceFor(fixture.awayTeam, fixture, performances);
             });
         });
-        this._standings = [ ...performances.values() ].sort((perf1, perf2) => perf2.points - perf1.points);
+        this._standings = [ ...performances.values() ].sort((perf1, perf2) => perf1.compare(perf2));
     }
 
     private updatePerformanceFor(team: Team, fixture: Fixture, performances: Map<string, ComparableTeamPerformance>): void {
         const performance = performances.has(team.name) ? performances.get(team.name) : new ComparableTeamPerformance(team.name);
+        performances.set(team.name, performance);
 
-        const goalDiff = fixture.homeGoals - fixture.awayGoals;
+        if (fixture.homeGoals == null || fixture.awayGoals == null) {
+            return;
+        }
+
+        const [goalsFor, goalsAllowed] = team.name === fixture.homeTeam.name
+            ? [fixture.homeGoals, fixture.awayGoals] : [fixture.awayGoals, fixture.homeGoals];
+        const goalDiff = goalsFor - goalsAllowed;
         if (goalDiff === 0) {
             performance.addTie();
         }
-        else if (
-            goalDiff > 0 && team.name === fixture.homeTeam.name ||
-            goalDiff < 0 && team.name === fixture.awayTeam.name
-        ) {
+        else if (goalDiff > 0) {
             performance.addWin();
         }
         else {
             performance.addLoss();
         }
-        performances.set(team.name, performance);
+        performance.addGoals(goalsFor, goalsAllowed);
     }
 }

@@ -4,4 +4,6 @@ export interface TeamPerformance {
     wins: number;
     ties: number;
     losses: number;
+    goalsFor: number;
+    goalsAllowed: number;
 }

@@ -1,18 +1,20 @@
-<table *ngIf="performances?.length > 0; else noStandings">
+<table class="standings">
     <tr>
-        <th>Joukkue</th>
-        <th>V</th>
-        <th>T</th>
-        <th>H</th>
-        <th>Pisteet</th>
+        <th class="name-col">Joukkue</th>
+        <th class="number-col">V</th>
+        <th class="number-col">T</th>
+        <th class="number-col">H</th>
+        <th class="number-col">TM</th>
+        <th class="number-col">PM</th>
+        <th class="number-col">P</th>
     </tr>
     <tr *ngFor="let perf of performances">
         <td>{{ perf.teamName }}</td>
-        <th>{{ perf.wins }}</th>
-        <th>{{ perf.ties }}</th>
-        <th>{{ perf.losses }}</th>
-        <td>{{ perf.points }}</td>
+        <td class="number-col">{{ perf.wins }}</td>
+        <td class="number-col">{{ perf.ties }}</td>
+        <td class="number-col">{{ perf.losses }}</td>
+        <td class="number-col">{{ perf.goalsFor }}</td>
+        <td class="number-col">{{ perf.goalsAllowed }}</td>
+        <td class="number-col">{{ perf.points }}</td>
     </tr>
 </table>
-
-<ng-template #noStandings>Ei pelattuja pelejä</ng-template>

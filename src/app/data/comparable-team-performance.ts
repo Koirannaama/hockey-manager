@@ -5,6 +5,8 @@ export class ComparableTeamPerformance implements TeamPerformance {
     private _losses = 0;
     private _ties = 0;
     private _points = 0;
+    private _goalsAllowed = 0;
+    private _goalsFor = 0;
 
     constructor(public readonly teamName: string) {}
 
@@ -24,6 +26,18 @@ export class ComparableTeamPerformance implements TeamPerformance {
         return this._losses;
     }
 
+    public get goalsFor(): number {
+        return this._goalsFor;
+    }
+
+    public get goalsAllowed(): number {
+        return this._goalsAllowed;
+    }
+
+    public get goalDiff(): number {
+        return this._goalsFor - this._goalsAllowed;
+    }
+
     public addWin(): void {
         this._wins++;
         this._points = this._points + 3;
@@ -38,11 +52,24 @@ export class ComparableTeamPerformance implements TeamPerformance {
         this._losses++;
     }
 
+    public addGoals( goalsFor: number, goalsAllowed: number ) {
+        this._goalsFor += goalsFor;
+        this._goalsAllowed += goalsAllowed;
+    }
+
     public compare(other: ComparableTeamPerformance): number {
         if (this._points !== other._points) {
-            return this.points - other._points;
+            return other.points - this.points;
+        } else if (this.goalDiff !== other.goalDiff) {
+            return other.goalDiff - this.goalDiff;
+        } else if (this.goalsFor !== other.goalsFor) {
+            return other.goalsFor - this.goalsFor;
+        } else if (this.goalsAllowed !== other.goalsAllowed) {
+            return other.goalsAllowed - other.goalsAllowed;
         }
 
-        // TODO: add goal total comparison
+        return 0;
+
+        // TODO: other criteria? (points per game, wins etc.)
     }
 }
