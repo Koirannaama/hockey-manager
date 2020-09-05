@@ -1,11 +1,23 @@
 .summary-container {
     display: flex;
+    flex-wrap: wrap;
     padding: 1rem;
+
+    h2 {
+        flex: 1 0 100%;
+        margin: 1rem;
+    }
 
     .summary-card {
         width: 20rem;
         background-color: rgb(243, 243, 243);
         margin: 1rem;
-        padding: 0.5rem;
+
+        h4 {
+            margin: 0;
+            padding: 1rem;
+            background-color: rgb(81, 193, 50);
+            color: white;
+        }
     }
 }

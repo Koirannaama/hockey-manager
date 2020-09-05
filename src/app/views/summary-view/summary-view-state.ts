@@ -12,9 +12,11 @@ export interface SummaryViewState {
 }
 
 function getPlayerFixtures(state: AppState): Fixture[] {
-    return state.schedule.matchDates.map(fixtures =>
-        fixtures.find(f => f.homeTeam.name === state.playerTeam.name || f.awayTeam.name === state.playerTeam.name)
-    );
+    return state.schedule.matchDates.reduce((playerFixtures, matchDate) => {
+        const playerMatch = matchDate.find(
+            f => f.homeTeam.name === state.playerTeam.name || f.awayTeam.name === state.playerTeam.name);
+        return playerMatch ? playerFixtures.concat(playerMatch) : playerFixtures;
+    }, []);
 }
 
 export const selectSummaryViewState = createSelector(

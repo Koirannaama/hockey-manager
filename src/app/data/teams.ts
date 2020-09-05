@@ -16,5 +16,22 @@ export const TEAMS: Team[] = [
     {
         name: 'Väen Puhti',
         strength: 1000
+    },
+    {
+        name: 'Sorkat',
+        strength: 1000
+    },
+    {
+        name: 'Kanuuna',
+        strength: 1000
+    },
+    {
+        name: 'Sähisijät',
+        strength: 1000
+    },
+    {
+        name: 'Kärpässienet',
+        strength: 1000
     }
+    // Kissakalat, Jäämaisterit, Tiiliskivet
 ];

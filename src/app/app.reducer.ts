@@ -9,7 +9,7 @@ const matchEngine = new MatchEngine();
 
 export const initialState: AppState = {
     playerTeam: TEAMS[0],
-    schedule: generateSchedule(),
+    schedule: generateSchedule(TEAMS),
     currentDay: 0
 };
 

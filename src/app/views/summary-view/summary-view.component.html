@@ -1,6 +1,7 @@
-<p>Joukkueeni: {{ teamName$ | async }}</p>
 <div class="summary-container">
+    <h2>{{ teamName$ | async }}</h2>
     <div class="summary-card">
+        <h4>Omat ottelut</h4>
         <ul>
             <li *ngFor="let fixture of fixtures$ | async">
                 <span>{{ fixture.homeTeam.name }} - {{ fixture.awayTeam.name }}</span>
@@ -10,6 +11,7 @@
     </div>
     
     <div class="summary-card">
+        <h4>Sarjataulukko</h4>
         <app-standings [performances]="performances$ | async"></app-standings>
     </div>
 </div>

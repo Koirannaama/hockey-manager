@@ -1,10 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { selectSummaryViewState } from './summary-view-state';
 import { Observable } from 'rxjs';
-import { map, tap } from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { Fixture } from 'src/app/models/fixture';
-import { Standings } from 'src/app/models/standings';
 import { TeamPerformance } from 'src/app/models/team-performance';
 
 @Component({
@@ -12,7 +11,7 @@ import { TeamPerformance } from 'src/app/models/team-performance';
     templateUrl: './summary-view.component.html',
     styleUrls: ['./summary-view.component.scss']
 })
-export class SummaryViewComponent implements OnInit {
+export class SummaryViewComponent {
 
     public readonly teamName$: Observable<string>;
     public readonly fixtures$: Observable<Fixture[]>;
@@ -24,8 +23,4 @@ export class SummaryViewComponent implements OnInit {
         this.fixtures$ = summaryState$.pipe(map(s => s.playerTeamFixtures));
         this.performances$ = summaryState$.pipe(map(s => s.standings.performances));
     }
-
-    ngOnInit(): void {
-    }
-
 }
