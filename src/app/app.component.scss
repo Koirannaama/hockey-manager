@@ -1,10 +1,12 @@
+@import '../common.scss';
+
 .main-container {
     display: flex;
     min-height: 100vh;
 
     .nav-bar {
-        flex: 0 0 6rem;
-        background-color: rgb(45, 185, 68);
+        flex: 0 0 7rem;
+        background-color: #A3DF8E;
 
         a {
             height: 3.5rem;
@@ -14,28 +16,34 @@
             align-items: center;
             justify-content: center;
             border-bottom: 1px solid transparent;
+            border-bottom-width: 2px;
             margin: 0 0.5rem;
             
+            &.active-route {
+                font-weight: 600;
+            }
+
             &:visited {
-                color: black;
+                color: $main-text-color;
             }
 
             &:hover {
-                background-color: rgba(45, 185, 68, 0.5);
-                border-bottom-color: black;
+                //background-color: rgba(45, 185, 68, 0.5);
+                border-bottom-color: #5F9F49;
             }
         }
 
         button {
             margin-top: 1.5rem;
-            background-color: rgb(52, 155, 69);
+            background-color:$dark-green;
             border: none;
             padding: 1rem;
             font-weight: bold;
             cursor: pointer;
+            color: white;
 
             &:hover {
-                background-color: rgba(52, 155, 69, 0.5)
+                background-color: rgba($dark-green, 0.5);
             }
         }
     }

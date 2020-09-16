@@ -3,7 +3,7 @@ export class MatchEngine {
 
     public runMatch( match: Fixture ): Fixture {
         if ( match.homeGoals || match.awayGoals ) {
-            throw new Error(`Match ${match.homeTeam.name} - ${match.awayTeam.name} ha already been decided`);
+            throw new Error(`Match ${match.homeTeam.name} - ${match.awayTeam.name} has already been decided!`);
         }
 
         return { ...match, homeGoals: this.calculateGoals(), awayGoals: this.calculateGoals() };

@@ -1,7 +1,7 @@
 <div class="main-container">
     <div class="nav-bar">
-        <a routerLink="/">Yhteenveto</a>
-        <a routerLink="/fixtures">Otteluohjelma</a>
+        <a routerLink="/" [routerLinkActive]="'active-route'" [routerLinkActiveOptions]="{exact: true}">Yhteenveto</a>
+        <a routerLink="/fixtures" [routerLinkActive]="'active-route'">Otteluohjelma</a>
         <button (click)="nextDayClicked()">Seuraava päivä</button>
     </div>
     <div class="content">

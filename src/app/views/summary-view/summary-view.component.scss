@@ -1,3 +1,5 @@
+@import '../../../common.scss';
+
 .summary-container {
     display: flex;
     flex-wrap: wrap;
@@ -16,7 +18,7 @@
         h4 {
             margin: 0;
             padding: 1rem;
-            background-color: rgb(81, 193, 50);
+            background-color: $dark-green;
             color: white;
         }
     }
