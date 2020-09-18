@@ -1,0 +1,1243 @@
+{
+    "Kissäpässit": [
+        {
+            "firstName": "Janne",
+            "lastName": "Jarhunen",
+            "offense": 4,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "lastName": "Tammi",
+            "offense": 8,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Vaappu",
+            "offense": 9,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Maukka",
+            "lastName": "Kuitunen",
+            "offense": 5,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Limpo",
+            "offense": 4,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kaarle",
+            "lastName": "Hirvonen",
+            "offense": 3,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tuisku",
+            "lastName": "Iivilä",
+            "offense": 9,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Sampo",
+            "lastName": "Pyykkö",
+            "offense": 3,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Seppo",
+            "lastName": "Lampare",
+            "offense": 8,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aatami",
+            "lastName": "Alvora",
+            "offense": 8,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Svante",
+            "lastName": "Aitovirta",
+            "offense": 6,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kauno",
+            "lastName": "Alvora",
+            "offense": 7,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauno",
+            "lastName": "Järvinen",
+            "offense": 8,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hans",
+            "lastName": "Kivelä",
+            "offense": 1,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Edvin",
+            "lastName": "Perä",
+            "offense": 0,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Sankkinen",
+            "offense": 0,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kauko",
+            "lastName": "Lampare",
+            "offense": 4,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "lastName": "Lahnaoja",
+            "offense": 1,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hans",
+            "lastName": "Aihnare",
+            "offense": 1,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Otto",
+            "lastName": "Aihnare",
+            "offense": 0,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kaarle",
+            "lastName": "Konkero",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 3
+        },
+        {
+            "firstName": "Samuli",
+            "lastName": "Konkero",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 8
+        }
+    ],
+    "Simpukat": [
+        {
+            "firstName": "Antti",
+            "lastName": "Konkero",
+            "offense": 5,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Teppo",
+            "lastName": "Kuitunen",
+            "offense": 3,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Maukka",
+            "lastName": "Järvinen",
+            "offense": 7,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Sampo",
+            "lastName": "Sepponen",
+            "offense": 7,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Limpo",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Paavo",
+            "lastName": "Välijärvi",
+            "offense": 4,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Otto",
+            "lastName": "Pyykkö",
+            "offense": 6,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Eetvartti",
+            "lastName": "Vinha",
+            "offense": 9,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tuisku",
+            "lastName": "Björn",
+            "offense": 4,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Perä",
+            "offense": 7,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Eetvartti",
+            "lastName": "Korppinen",
+            "offense": 9,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Seppo",
+            "lastName": "Jarhunen",
+            "offense": 7,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Jarhunen",
+            "offense": 7,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kai",
+            "lastName": "Ehtikkö",
+            "offense": 4,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aatami",
+            "lastName": "Vinha",
+            "offense": 2,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauno",
+            "lastName": "Ehtikkö",
+            "offense": 0,
+            "defense": 5,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "lastName": "Vinha",
+            "offense": 3,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aatami",
+            "lastName": "Hirvonen",
+            "offense": 4,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Ingvald",
+            "lastName": "Alvora",
+            "offense": 4,
+            "defense": 7,
+            "goalie": 0
+        },
+        {
+            "firstName": "Eetvartti",
+            "lastName": "Verhola",
+            "offense": 3,
+            "defense": 5,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kai",
+            "lastName": "Hirvonen",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 6
+        },
+        {
+            "firstName": "Ingvald",
+            "lastName": "Vinha",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 7
+        }
+    ],
+    "Myrrysmiehet": [
+        {
+            "firstName": "Ingvald",
+            "lastName": "Ohdake",
+            "offense": 4,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Santeri",
+            "lastName": "Sepponen",
+            "offense": 6,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kauno",
+            "lastName": "Tekari",
+            "offense": 3,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hansu",
+            "lastName": "Lahnaoja",
+            "offense": 3,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Otso",
+            "lastName": "Tekari",
+            "offense": 7,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Otto",
+            "lastName": "Aitovirta",
+            "offense": 5,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Tammi",
+            "offense": 5,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Sampo",
+            "lastName": "Perä",
+            "offense": 5,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Ehtikkö",
+            "offense": 3,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Teppo",
+            "lastName": "Konkero",
+            "offense": 3,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauno",
+            "lastName": "Vinha",
+            "offense": 6,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Torsti",
+            "lastName": "Vaappu",
+            "offense": 5,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Akseli",
+            "lastName": "Vinha",
+            "offense": 8,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Järvinen",
+            "offense": 1,
+            "defense": 6,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Tekari",
+            "offense": 0,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hansu",
+            "lastName": "Vaakuttainen",
+            "offense": 4,
+            "defense": 5,
+            "goalie": 0
+        },
+        {
+            "firstName": "Teppo",
+            "lastName": "Vaakuttainen",
+            "offense": 1,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Perä",
+            "offense": 0,
+            "defense": 7,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hannu",
+            "lastName": "Alvora",
+            "offense": 1,
+            "defense": 6,
+            "goalie": 0
+        },
+        {
+            "firstName": "Maukka",
+            "lastName": "Rinne",
+            "offense": 4,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Edvin",
+            "lastName": "Perä",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 2
+        },
+        {
+            "firstName": "Kai",
+            "lastName": "Hirvonen",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 9
+        }
+    ],
+    "Väen puhti": [
+        {
+            "firstName": "Jaakko",
+            "lastName": "Rinne",
+            "offense": 7,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Svante",
+            "lastName": "Iivilä",
+            "offense": 7,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jannu",
+            "lastName": "Aitovirta",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hannu",
+            "lastName": "Ehtikkö",
+            "offense": 5,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Iivari",
+            "lastName": "Vahvero",
+            "offense": 9,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Samuli",
+            "lastName": "Konkero",
+            "offense": 3,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Tuoleli",
+            "offense": 9,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Ingvald",
+            "lastName": "Karlstadt",
+            "offense": 9,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hannu",
+            "offense": 3,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kauno",
+            "lastName": "Ehtikkö",
+            "offense": 5,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Iivari",
+            "lastName": "Korppinen",
+            "offense": 4,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Verhola",
+            "offense": 6,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mikko",
+            "lastName": "Lahnaoja",
+            "offense": 6,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Janne",
+            "lastName": "Korppinen",
+            "offense": 0,
+            "defense": 6,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Alvora",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kauko",
+            "lastName": "Tuoleli",
+            "offense": 2,
+            "defense": 7,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Tammi",
+            "offense": 4,
+            "defense": 6,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jannu",
+            "lastName": "Rinne",
+            "offense": 3,
+            "defense": 7,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Ohdake",
+            "offense": 0,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Konkero",
+            "offense": 3,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aatami",
+            "lastName": "Verhola",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 2
+        },
+        {
+            "firstName": "Samuli",
+            "lastName": "Limpo",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 5
+        }
+    ],
+    "Sorkat": [
+        {
+            "firstName": "Svante",
+            "lastName": "Jarhunen",
+            "offense": 7,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Paavo",
+            "lastName": "Aitovirta",
+            "offense": 4,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Sepponen",
+            "offense": 7,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Tekari",
+            "offense": 5,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Janne",
+            "lastName": "Rinne",
+            "offense": 6,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Pentti",
+            "lastName": "Sankkinen",
+            "offense": 6,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aku",
+            "lastName": "Vaappu",
+            "offense": 5,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mikko",
+            "lastName": "Vaappu",
+            "offense": 6,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Pentti",
+            "lastName": "Tuoleli",
+            "offense": 5,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Uupukka",
+            "offense": 8,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Samuli",
+            "lastName": "Rönkeli",
+            "offense": 8,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tuisku",
+            "lastName": "Vaskitsa",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Seppo",
+            "lastName": "Jarhunen",
+            "offense": 5,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hansu",
+            "lastName": "Karlstadt",
+            "offense": 3,
+            "defense": 5,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jannu",
+            "lastName": "Lampare",
+            "offense": 4,
+            "defense": 6,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "lastName": "Tuoleli",
+            "offense": 2,
+            "defense": 5,
+            "goalie": 0
+        },
+        {
+            "firstName": "Eetvartti",
+            "offense": 0,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hansu",
+            "lastName": "Suuppala",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Otto",
+            "lastName": "Konkero",
+            "offense": 3,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Ingvald",
+            "lastName": "Iivilä",
+            "offense": 1,
+            "defense": 7,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jaakko",
+            "lastName": "Tekari",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 8
+        },
+        {
+            "firstName": "Otso",
+            "lastName": "Hirvonen",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 5
+        }
+    ],
+    "Kanuuna": [
+        {
+            "firstName": "Hans",
+            "lastName": "Vahvero",
+            "offense": 3,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "offense": 4,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Sankkinen",
+            "offense": 4,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Lampare",
+            "offense": 4,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Svante",
+            "lastName": "Konkero",
+            "offense": 3,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kai",
+            "lastName": "Iivilä",
+            "offense": 8,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Alvora",
+            "offense": 5,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Pyykkö",
+            "offense": 6,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Sankkinen",
+            "offense": 8,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Pentti",
+            "lastName": "Järvinen",
+            "offense": 9,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Akseli",
+            "lastName": "Tammi",
+            "offense": 4,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Kuitunen",
+            "offense": 6,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauno",
+            "lastName": "Tuoleli",
+            "offense": 8,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aku",
+            "lastName": "Vaskitsa",
+            "offense": 4,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Vaskitsa",
+            "offense": 2,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Iisak",
+            "lastName": "Pyykkö",
+            "offense": 0,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kai",
+            "offense": 1,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Nikolai",
+            "lastName": "Kivelä",
+            "offense": 4,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Nikolai",
+            "lastName": "Vaskitsa",
+            "offense": 1,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Svante",
+            "lastName": "Pyykkö",
+            "offense": 1,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Järvinen",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 4
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Aitovirta",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 4
+        }
+    ],
+    "Sähisijät": [
+        {
+            "firstName": "Hans",
+            "lastName": "Vahvero",
+            "offense": 3,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "offense": 4,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Sankkinen",
+            "offense": 4,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Lampare",
+            "offense": 4,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Svante",
+            "lastName": "Konkero",
+            "offense": 3,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kai",
+            "lastName": "Iivilä",
+            "offense": 8,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Alvora",
+            "offense": 5,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Pyykkö",
+            "offense": 6,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Sankkinen",
+            "offense": 8,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Pentti",
+            "lastName": "Järvinen",
+            "offense": 9,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Akseli",
+            "lastName": "Tammi",
+            "offense": 4,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Kuitunen",
+            "offense": 6,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauno",
+            "lastName": "Tuoleli",
+            "offense": 8,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Aku",
+            "lastName": "Vaskitsa",
+            "offense": 4,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tepi",
+            "lastName": "Vaskitsa",
+            "offense": 2,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Iisak",
+            "lastName": "Pyykkö",
+            "offense": 0,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kai",
+            "offense": 1,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Nikolai",
+            "lastName": "Kivelä",
+            "offense": 4,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Nikolai",
+            "lastName": "Vaskitsa",
+            "offense": 1,
+            "defense": 8,
+            "goalie": 0
+        },
+        {
+            "firstName": "Svante",
+            "lastName": "Pyykkö",
+            "offense": 1,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Järvinen",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 4
+        },
+        {
+            "firstName": "Mauritz",
+            "lastName": "Aitovirta",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 4
+        }
+    ],
+    "Kärpässienet": [
+        {
+            "firstName": "Hansu",
+            "lastName": "Lahnaoja",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hansu",
+            "lastName": "Sankkinen",
+            "offense": 3,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tuisku",
+            "offense": 3,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Teppo",
+            "lastName": "Kuokka",
+            "offense": 3,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "lastName": "Tekari",
+            "offense": 7,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Iisak",
+            "lastName": "Rinne",
+            "offense": 7,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Otto",
+            "lastName": "Björn",
+            "offense": 7,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Jannu",
+            "lastName": "Granbjörk",
+            "offense": 7,
+            "defense": 0,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Suuppala",
+            "offense": 5,
+            "defense": 1,
+            "goalie": 0
+        },
+        {
+            "firstName": "Antti",
+            "lastName": "Vahvero",
+            "offense": 9,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Pentti",
+            "lastName": "Limpo",
+            "offense": 7,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Osmo",
+            "lastName": "Suuppala",
+            "offense": 7,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Harri",
+            "lastName": "Järvinen",
+            "offense": 3,
+            "defense": 2,
+            "goalie": 0
+        },
+        {
+            "firstName": "Sampo",
+            "lastName": "Verhola",
+            "offense": 1,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Tuisku",
+            "lastName": "Vahvero",
+            "offense": 4,
+            "defense": 5,
+            "goalie": 0
+        },
+        {
+            "firstName": "Kaarle",
+            "lastName": "Karlstadt",
+            "offense": 1,
+            "defense": 6,
+            "goalie": 0
+        },
+        {
+            "firstName": "Maukka",
+            "lastName": "Pyykkö",
+            "offense": 2,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Eetvartti",
+            "lastName": "Ehtikkö",
+            "offense": 1,
+            "defense": 9,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mikko",
+            "lastName": "Korppinen",
+            "offense": 4,
+            "defense": 4,
+            "goalie": 0
+        },
+        {
+            "firstName": "Hansu",
+            "lastName": "Lahnaoja",
+            "offense": 2,
+            "defense": 3,
+            "goalie": 0
+        },
+        {
+            "firstName": "Mauno",
+            "lastName": "Järvinen",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 6
+        },
+        {
+            "firstName": "Tuisku",
+            "lastName": "Karlstadt",
+            "offense": 0,
+            "defense": 0,
+            "goalie": 6
+        }
+    ]
+}
