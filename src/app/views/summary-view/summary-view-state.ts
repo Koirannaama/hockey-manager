@@ -12,7 +12,7 @@ export interface SummaryViewState {
 }
 
 function getPlayerFixtures(state: AppState): Fixture[] {
-    return Array.from(state.schedule.matchDates.values()).reduce((playerFixtures, matchDate) => {
+    return Array.from(state.season.schedule.matchDates.values()).reduce((playerFixtures, matchDate) => {
         const playerMatch = matchDate.find(
             f => f.homeTeam.name === state.playerTeam.name || f.awayTeam.name === state.playerTeam.name);
         return playerMatch ? playerFixtures.concat(playerMatch) : playerFixtures;
@@ -24,6 +24,6 @@ export const selectSummaryViewState = createSelector(
     state => ({
         playerTeam: state.playerTeam,
         playerTeamFixtures: getPlayerFixtures(state),
-        standings: new StandingsBuilder(state.schedule)
+        standings: new StandingsBuilder(state.season.schedule)
     })
 );

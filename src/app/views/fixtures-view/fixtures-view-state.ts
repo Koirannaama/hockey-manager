@@ -9,6 +9,6 @@ export interface FixturesViewState {
 export const selectFixturesViewState = createSelector(
     (stateObj: { state: AppState }) => stateObj.state,
     state => ({
-        schedule: state.schedule
+        schedule: state.season.schedule
     })
 );

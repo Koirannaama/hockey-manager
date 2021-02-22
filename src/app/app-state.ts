@@ -1,9 +1,14 @@
 import { Team } from './models/team';
-import { Schedule } from './models/schedule';
+import { Season } from './models/season';
+import { createSelector } from '@ngrx/store';
 
 export interface AppState {
     playerTeam: Team;
-    schedule: Schedule;
-    currentDay: number;
+    season: Season;
     currentSeason: number;
 }
+
+export const isSeasonOver = createSelector(
+    (stateObj: { state: AppState }) => stateObj.state,
+    state => state.season.hasEnded
+);

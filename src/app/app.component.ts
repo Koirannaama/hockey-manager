@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import { Store } from '@ngrx/store';
+import { select, Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
+import { isSeasonOver } from './app-state';
 import { nextDay } from './app.actions';
 
 @Component({
@@ -9,7 +12,13 @@ import { nextDay } from './app.actions';
 })
 export class AppComponent {
 
-    constructor(private store: Store) {}
+    public advanceBtnText$: Observable<string>;
+
+    constructor(private store: Store) {
+        this.advanceBtnText$ = store.pipe(select(isSeasonOver)).pipe(
+            map( isOver => isOver ? 'Uusi kausi' : 'Seuraava päivä' )
+        );
+    }
 
     public nextDayClicked(): void {
         this.store.dispatch(nextDay());
