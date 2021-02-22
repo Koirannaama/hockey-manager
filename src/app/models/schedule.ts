@@ -1,5 +1,5 @@
 import { Fixture } from './fixture';
-
 export interface Schedule {
-    matchDates: Fixture[][];
+    matchDates: Map<number, Fixture[]>;
 }
+

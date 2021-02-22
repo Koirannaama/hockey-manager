@@ -1,7 +1,7 @@
-import { Schedule } from "../models/schedule";
+import { Schedule } from '../models/schedule';
 
-import { Team } from "../models/team";
-import { Fixture } from "../models/fixture";
+import { Team } from '../models/team';
+import { Fixture } from '../models/fixture';
 
 export function generateSchedule(forTeams: Team[]): Schedule {
     const allGames = forTeams.reduce((allGames, currentTeam) => {
@@ -9,12 +9,16 @@ export function generateSchedule(forTeams: Team[]): Schedule {
         const homeGames = otherTeams.map(other => [currentTeam, other]);
         return allGames.concat(homeGames);
     }, []);
-    
-    const matchDates: Fixture[][] = [];
+
+    // TODO: refactor to use reduce or something
+    // Might want to add random empty dates later
+    let matchDates = new Map<number, Fixture[]>();
+    let date = 0;
     while (allGames.length > 0) {
-        matchDates.push(generateMatchDay(forTeams, allGames));
+        matchDates = matchDates.set( date, generateMatchDay(forTeams, allGames) );
+        date++;
     }
-    return { matchDates }
+    return { matchDates };
 }
 
 function generateMatchDay(teams: Team[], possibleMatches: [Team, Team][]): Fixture[] {

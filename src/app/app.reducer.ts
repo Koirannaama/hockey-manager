@@ -3,30 +3,38 @@ import { createReducer, Action, on } from '@ngrx/store';
 import { generateSchedule } from './data/schedule-generator';
 import { AppState } from './app-state';
 import { MatchEngine } from './data/match-engine';
-import { nextDay } from './app.actions';
+import { databaseLoaded, nextDay } from './app.actions';
 
 const matchEngine = new MatchEngine();
 
 export const initialState: AppState = {
     playerTeam: TEAMS[0],
     schedule: generateSchedule(TEAMS),
-    currentDay: 0
+    currentDay: 0,
+    currentSeason: 0
 };
 
 function advanceToNextDay(state: AppState): AppState {
-    const matchsForDay = state.schedule.matchDates[state.currentDay];
-    const matchesWithResult = matchsForDay.map(fixture => matchEngine.runMatch(fixture));
+    const matchesForDay = state.schedule.matchDates.get(state.currentDay);
+    const matchesWithResult = matchesForDay.map(fixture => matchEngine.runMatch(fixture));
+
     const updatedSchedule = {
         ...state.schedule,
-        matchDates: state.schedule.matchDates.map(
-            (fs, i) => i === state.currentDay ? matchesWithResult : fs
-        ) };
+        matchDates: state.schedule.matchDates.set( state.currentDay, matchesWithResult )
+    };
+
     return { ...state, schedule: updatedSchedule, currentDay: state.currentDay + 1 };
+}
+
+function setupData(state: AppState): AppState {
+    console.log('database received');
+    return state;
 }
 
 const reducer = createReducer(
     initialState,
-    on(nextDay, state => advanceToNextDay(state))
+    on(nextDay, state => advanceToNextDay(state)),
+    on(databaseLoaded, state => setupData(state))
 );
 
 export function appReducer(state: AppState, action: Action): AppState {

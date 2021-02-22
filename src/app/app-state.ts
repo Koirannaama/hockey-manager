@@ -5,4 +5,5 @@ export interface AppState {
     playerTeam: Team;
     schedule: Schedule;
     currentDay: number;
+    currentSeason: number;
 }

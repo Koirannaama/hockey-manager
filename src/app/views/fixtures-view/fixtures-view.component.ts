@@ -15,6 +15,6 @@ export class FixturesViewComponent {
     dates$: Observable<Fixture[][]>;
 
     constructor(store: Store) {
-        this.dates$ = store.pipe(select(selectFixturesViewState), map(s => s.schedule.matchDates));
+        this.dates$ = store.pipe(select(selectFixturesViewState), map(s => Array.from(s.schedule.matchDates.values())));
     }
 }

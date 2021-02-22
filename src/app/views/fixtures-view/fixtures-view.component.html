@@ -2,6 +2,9 @@
     <ul>
         <li *ngFor="let fixture of matchDay">
             {{ fixture.homeTeam.name }} - {{ fixture.awayTeam.name }}
+            <span *ngIf="fixture.homeGoals != null && fixture.awayGoals != null">
+                {{ fixture.homeGoals }} - {{ fixture.awayGoals }}
+            </span>
         </li>
     </ul>
 </div>

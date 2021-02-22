@@ -52,7 +52,7 @@ export class ComparableTeamPerformance implements TeamPerformance {
         this._losses++;
     }
 
-    public addGoals( goalsFor: number, goalsAllowed: number ) {
+    public addGoals( goalsFor: number, goalsAllowed: number ): void {
         this._goalsFor += goalsFor;
         this._goalsAllowed += goalsAllowed;
     }
